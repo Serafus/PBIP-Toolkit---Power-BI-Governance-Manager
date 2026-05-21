@@ -1,0 +1,28 @@
+# --- pbi-tools (external, AGPL-3.0 - not redistributed in this repo) ---------
+pbi-tools/
+*.exe
+
+# --- Power BI source / binary artifacts --------------------------------------
+*.pbix
+*.pbit
+pbip_*/
+**/Data/
+**/reports/
+
+# --- Toolkit output ----------------------------------------------------------
+Analysis_Output/
+*.log
+
+# --- OS / editor noise -------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vs/
+.vscode/
+*.user
+
+# --- Secrets (never commit credentials) --------------------------------------
+*.secret
+*.env
+appsettings.local.json
+credentials.json
